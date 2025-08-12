@@ -1,0 +1,9 @@
+t = 0:0.002:0.1;
+y3 = square(2*pi*50*t);
+figure;
+subplot(2,2,1);
+plot(t, y3);
+axis([0 0.1 -2 2]);
+xlabel('time');
+ylabel('amplitude');
+title('square wave signal');
