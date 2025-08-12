@@ -1,0 +1,5 @@
+subplot(2,2,2);
+stem(t1, y1);
+xlabel('n');
+ylabel('amplitude');
+title('unit impulse sequence');
