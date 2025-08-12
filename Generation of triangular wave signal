@@ -1,0 +1,8 @@
+y5 = sawtooth(2*pi*50*t, 0.5);
+figure;
+subplot(2,2,1);
+plot(t, y5);
+axis([0 0.1 -2 2]);
+xlabel('time');
+ylabel('amplitude');
+title('triangular wave signal');
