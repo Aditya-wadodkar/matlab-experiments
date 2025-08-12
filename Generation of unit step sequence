@@ -1,0 +1,5 @@
+subplot(2,2,4);
+stem(t2, y2);
+xlabel('n');
+ylabel('amplitude');
+title('unit step sequence');
