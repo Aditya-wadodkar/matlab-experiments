@@ -1,0 +1,10 @@
+clc;
+clear all;
+close all;
+t1 = -1:0.01:1;
+y1 = (t1 == 0);
+subplot(2,2,1);
+plot(t1, y1);
+xlabel('time');
+ylabel('amplitude');
+title('unit impulse signal');
